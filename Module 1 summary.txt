@@ -1,0 +1,13 @@
+Heading
+paragraph
+small
+bold
+italic
+span
+semantics: strong, emphasis
+
+Inline vs block elements
+creating link with anchor tag and it's attribute (href and target) href = hypertext referance.
+image: show online image, local image, folder image
+form: input type, button, select, option, login form
+structure: doctype, meta, head, title, fevicon, utf-8,body, footer.
