@@ -1,0 +1,22 @@
+CSS: Cascading Style Sheets
+Types of CSS: inline, internal, external.
+inline: style="color:blue"
+internal: <style>
+.p{color:blue;}
+</style>
+External: link:style.css
+
+Types of CSS Selector: ID, Class, Container, elements, grouping, attribute, universal.
+Different type of color: Name, Hex Code, RGB Code,
+background color.
+background image.
+background repeat.
+Display
+background position (HW)
+CSS Margin & padding
+max&min height.
+border-radious.
+CSS Box Model (Important)
+Display:inline, block, inline-block
+
+Practice Task
