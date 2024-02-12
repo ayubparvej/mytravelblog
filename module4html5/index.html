@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 5</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="nav.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">About Us</a>
+                </li>
+                <li>
+                    <a href="navandNestedNav.html">Nav Home</a>
+                </li>
+                <li>
+                    <a href="index.html">Our Team</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <form>
+            <fieldset>
+                <legend>Pick a pitha</legend>
+                <label for="Chitoi">
+                    <input type="radio" id="Chitoi" name="pitha">Chitoi
+                </label>
+                <label for="Vapa">
+                    <input type="radio" id="Vapa" name="pitha"> Vapa
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    Pick vortha
+                </legend>
+
+                <label for="morich">
+                    <input type="checkbox" name="vortha" id="morich"> Morich Vortah
+                </label>
+
+                <label for="shutki">
+
+                    <input type="checkbox" id="shutki" name="vortha"> Shutki vortha
+                </label>
+
+            </fieldset>
+
+
+        </form>
+
+        <form style="background-color: antiquewhite; padding: 10px; margin-bottom: 20px;">
+
+            <h1 style="text-align: center;">Pitha & Bortha khawar form</h1>
+
+            <label for="name">Name:
+                <input type="text" name="" id="name">
+            </label>
+
+            <label for="email">Email:
+                <input type="email" name="" id="email">
+            </label>
+
+            <label for="password">password:
+                <input type="password" name="" id="password">
+            </label>
+
+
+            <fieldset>
+                <legend>Select a Pitha</legend>
+
+                <label for="Vapa">
+                    <input type="radio" name="pitha" id="Vapa"> Vapa Pitha
+                </label>
+
+                <label for="Chitoi">
+                    <input type="radio" name="pitha" id="Chitoi"> Chitoi Pitha
+                </label>
+
+                <label for="Patishapta">
+                    <input type="radio" name="pitha" id="Patishapta"> Patishapta Pitha
+                </label>
+
+            </fieldset>
+
+            <fieldset style="margin-bottom: 20px;">
+                <legend>Select one/more Vortha</legend>
+
+                <label for="Morich">
+                    <input type="checkbox" name="Vortha" id="Morich"> Morich Vortha
+                </label>
+
+                <label for="Shutki">
+                    <input type="checkbox" name="Vortha" id="Shutki"> Shutki Vortha
+                </label>
+
+                <label for="Dhonepata">
+                    <input type="checkbox" name="Vortha" id="Dhonepata"> Dhonepata Vortha
+                </label>
+                <h3 style="text-align: center;">Write if you need anything els apart from pitha and Vortha</h3>
+                <div style="text-align: center;">
+                    <textarea name="textarea" id="" cols="150" rows="10" style="display: inline-block;"></textarea>
+                </div>
+
+            </fieldset>
+
+            <div style="text-align: center;">
+                <input type="reset">
+                <input type="submit" value="Submit form">
+
+            </div>
+        </form>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>SL</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>morich vortha</td>
+                    <td>10tk</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Shutki vortha</td>
+                    <td>20tk</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Chitoi Pitha</td>
+                    <td>20tk</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>Vapa Pitha</td>
+                    <td>20tk</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="3">
+                        All Prices of pitha and vortha
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <table>
+
+            <caption>This is a caption tag for table which is a semantic tag/ HTML5 Tag</caption>
+            <thead>
+                <tr>
+                    <th>SL</th>
+                    <th>Name</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bill</td>
+                    <td>1000TK</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Gates</td>
+                    <td>1500TK</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Steve</td>
+                    <td>1600TK</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="3">All the salary of pitha bebshai e</td>
+                </tr>
+            </tfoot>
+
+
+        </table>
+
+        <audio src="res/audio.mp3" controls></audio>
+
+        <video src="res/video.mp4" controls width="500px" height="500px"></video>
+    </main>
+
+
+</body>
+
+
+</html>

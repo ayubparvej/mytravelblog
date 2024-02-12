@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Form</title>
+    <link rel="stylesheet" href="panda.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="navandNestedNav.html">Nav Home</a>
+                    <ul class="dropdown">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="navandNestedNav.html"></a>Nav Home</li>
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html">Home</a>
+                    <ul class="dropdown">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="navandNestedNav.html"></a>Nav Home</li>
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+
+
+
+        <form>
+            <div class="feedback">
+                <label for="search">
+                    Search your image here:
+                    <input placeholder="type to search" type="search" name="" id="search">
+                    <input type="button" value="Search">
+                </label>
+            </div>
+            <img style="display: block; margin-top: 10px;" src="panda.jpg" alt="" srcset="" width="400px">
+
+            <a href="https://wallpapers.com/search/panda">For more click here</a>
+
+            <div class="feedback">
+                <h3>Feedback Form</h3>
+                <label for="name">
+                    <p>Name:</p>
+                    <input type="text" name="" id="">
+                </label>
+                <label for="date">
+                    <p>Date:</p>
+                    <input type="date" name="date" id="">
+                </label>
+                <label for="Comment">
+                    <p>Comment:</p>
+                    <textarea name="" id="" cols="200" rows="10"></textarea>
+                </label>
+
+                <input type="submit" value="Submit" style="margin-top: 10px; display: block;">
+            </div>
+
+
+
+
+        </form>
+
+
+
+
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+nav li:hover {
+    background-color: blanchedalmond;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Nested Menue Styles */
+
+nav li .dropdown {
+    display: none;
+    position: absolute;
+    background-color: antiquewhite;
+    padding-left: 10px;
+}
+
+nav li:hover .dropdown {
+    display: block;
+}
+
+form {
+    padding: 10px;
+    margin: 10px;
+}
+
+.feedback {
+    background-color: rgb(199, 152, 95);
+    padding: 20px;
+}
